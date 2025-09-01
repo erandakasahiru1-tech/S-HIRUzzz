@@ -82,9 +82,9 @@ router.get("/", async (req, res) => {
             );
 
             const sid = `*S-hiruzzz[The powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*You can ask any question using this link*\n\n*wa.me/message/+94762473341*\n\n*You can join my whatsapp group*\n\n*https://chat.whatsapp.com/ExDFMeS7cjE7kNgC4KeXqW*`;
-            const mg = `🛑 *Do not share this code to anyone* 🛑`;
-            const dt = await RobinPairWeb.sendMessage(user_jid, {
-              image: {
+            const mg = `🛑 *Do not fucking share this code to anyone* 🛑`;
+            const dt = await S_hituzzzWeb.sendMessage(user_jid, {
+              image: {https://c4.wallpaperflare.com/wallpaper/188/461/319/zhu-xian-anime-hd-wallpaper-preview.jpg}
                 url: "https://raw.githubusercontent.com/Dark-Robin/Bot-Helper/refs/heads/main/autoimage/Bot%20robin%20WP.jpg",
               },
               caption: sid,
@@ -129,4 +129,5 @@ process.on("uncaughtException", function (err) {
 });
 
 module.exports = router;
+
 
